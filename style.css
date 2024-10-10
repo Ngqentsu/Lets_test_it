@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#root {
+  padding: 20px;
+}
+
+.aircraft-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aircraft-item {
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.aircraft-item h2 {
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.comparison-section {
+  margin-top: 20px;
+  border-top: 2px solid #333;
+  padding-top: 20px;
+}
